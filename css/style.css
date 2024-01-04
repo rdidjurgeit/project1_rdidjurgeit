@@ -6,6 +6,13 @@ img,figcaption {
   figcaption{
     font-size:50px;
   }
+  header{
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow:0 2px 2px ;
+  }
 body{
   background-color: rgb(253, 253, 253);  
   font-family: 'Lucida Sans Unicode';
