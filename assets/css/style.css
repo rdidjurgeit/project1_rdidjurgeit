@@ -14,4 +14,14 @@ header{
       letter-spacing: 0.2em;
       text-align: justify;
       font-weight: 400;
-} 
+  }
+/* footer */
+footer{
+    background-color: #333;
+    color: white;
+}
+
+footer a {
+    color: inherit;
+    text-decoration: underline;
+}
