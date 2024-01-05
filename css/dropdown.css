@@ -1,10 +1,8 @@
-/* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: rgb(60, 72, 139);
+  background-color: #333;
 }
 
-/* Links inside the navbar */
 .navbar a {
   float: left;
   font-size: 16px;
@@ -13,65 +11,41 @@
   padding: 14px 16px;
   text-decoration: none;
 }
-
-/* The dropdown container */
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-/* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 16px;
+  font-size: 16px;  
   border: none;
   outline: none;
   color: white;
   padding: 14px 16px;
   background-color: inherit;
-  font: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+  margin: 0;
 }
-/* Dropdown content (hidden by default) */
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(180, 180, 180);
+}
 .dropdown-content {
   display: none;
   position: absolute;
-  width: 100%;
+  background-color: #f9f9f9;
+  min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  background-color: rgb(247, 244, 244);
-  height: 250px;
-}
-
-/* Style links inside the columns */
-.column a {
+.dropdown-content a {
   float: none;
   color: black;
-  padding: 16px;
+  padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
 }
 
-/* Add a background color on hover */
-.column a:hover {
+.dropdown-content a:hover {
   background-color: #ddd;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.dropdown:hover .dropdown-content {
+  display: block;
 }
