@@ -43,6 +43,12 @@ figcaption{
     display: flex;
     padding-bottom: 3px;
   }
+  img {
+    max-width: 80%;
+    height: auto; 
+    display: block;
+    margin: 0 auto; 
+  }
 /* footer */
 footer{
     background-color: #333;
@@ -90,6 +96,11 @@ footer a {
         height: auto;
         width: 30%;
         margin: 10px;
+    }
+    ol li {
+        height: auto;
+        margin: 10px;
+        width: 95%;
     }
     p{
         width: 95%;
