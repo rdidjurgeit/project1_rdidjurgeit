@@ -32,6 +32,20 @@ figcaption{
     color: inherit;
     text-decoration: underline;
  }
+ /* frame Video */
+ /* Make the iframe responsive */
+ .responsive-iframe {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  /* Optional: Add a container to control the size on larger screens if needed */
+  .iframe-container {
+    max-width: 300px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the container */
+    align-items: center;
+  }
 /* footer */
 footer{
     background-color: #333;
