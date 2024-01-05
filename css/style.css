@@ -10,10 +10,9 @@ background-color: rgb(253, 253, 253);
 font-family: 'Lucida Sans Unicode';
   letter-spacing: 0.2em;
   text-align: justify;
-  font-weight: 400;  
+  font-weight: 400; 
 }
-/* #container */
-div:first-of-type{
+body{
   width: 80%;
   margin: auto; 
 }
