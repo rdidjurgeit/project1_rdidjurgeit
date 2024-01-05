@@ -43,7 +43,7 @@ figcaption{
     display: flex;
     padding-bottom: 3px;
   }
-  img {
+  section img {
     max-width: 80%;
     height: auto; 
     display: block;

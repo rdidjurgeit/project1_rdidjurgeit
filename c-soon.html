@@ -1,0 +1,102 @@
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Meta tags for search eng. -->
+        <meta name="description" content="Learning How to Sail">
+        <meta name="keywords" content="sailing, weather forecast, naval terms, ">
+        <title>Sailin School Home</title>
+        <!-- Favicon free sorce https://icons8.com/ -->
+        <link rel="icon"  sizes="32x32" href="./assets/images/icons8_32.png">
+        <link rel="icon" sizes="16x16" href="./assets/images/icons8_16.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+        <link rel="stylesheet" href="./assets/css/contact.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/dropdown.css">
+        <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"/>
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="./assets/images/logo.png" alt="this is the a logo from the school" width="200" height="200">
+            <figcaption>Sailing School</figcaption>
+        </figure>
+        <Nav aria-label="Navigation Tab" name="Navagation Tag">
+            <div class="navbar">
+                <a href="./index.html">Home</a>
+                <a href="./contact.html">Contact</a>
+                <!-- Beginners -->
+                <div class="dropdown">
+                  <button class="dropbtn">Beginners 
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href='/#beginnersailingtips'>Beginner Sailing Tips</a>
+                  <a href='/#sailingbasics'>10Nautical Sailing Terms</a>
+                  <a href='/#sailingrules'>Sailing Rules</a>
+                  </div>
+                  <!-- Intermediary -->
+                </div>
+                <div class="dropdown">
+                  <button class="dropbtn">Intermediary 
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="./pointofsail.html">Points of Sail</a>
+                    <a href="./c-soon.html">Boat Safety</a>
+                    <a href="./weather.html">Weather Forecast</a>
+                  </div>
+                </div> 
+                 <!-- Advance -->
+                <div class="dropdown">
+                  <button class="dropbtn">Advance 
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="./c-soon.html">Rigging</a>
+                    <a href="./c-soon.html">Tunning</a>
+                    <a href="./c-soon.html">Nautil Terms Full List</a>
+                  </div>
+                </div> 
+              </div>
+        </Nav>
+        <!-- Button to facilitate to go to the top in the middle of the page   -->
+    <button onclick="topFunction()" id="myBtn" title=" Top">Top<i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </button>   
+    </header>
+    <main>
+        <h1>Not jet function</h1>
+        <p>Under Construction </p>
+        <section>
+            <figure>
+                <img src="./assets/images/schrodinger.jpg" alt="This is representation of schrodinger principles">
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <p>M.by Raphael winnt contents from different sorcery more info in <a href="./c-soon.html">Read Me.</a> </p>
+        <p><a href="contact.html">Contact.</a></p>
+    </footer>
+    <!-- Scrip for the button since is only one scrip it was add in the page, Ob. IF in the future website have more scrips a separation will be create.  -->
+    <script>
+        // Get the button:
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+    </script>
+</body>
+</html>
