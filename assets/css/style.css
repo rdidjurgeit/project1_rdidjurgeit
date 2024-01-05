@@ -5,6 +5,9 @@ header{
     z-index: 99;
     width: 100%;
 }
+figcaption{
+    display: none;
+}
 
   /* Main */
   main{
@@ -82,5 +85,9 @@ footer a {
         margin: auto;
         padding: 5px; 
        }
-    
+       figcaption{
+        display: inline-block;
+        font-size:60px;
+        letter-spacing: 0.2em;
+       }
   }
