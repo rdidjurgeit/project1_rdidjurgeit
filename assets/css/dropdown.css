@@ -1,3 +1,9 @@
+nav {
+    font-family: 'Lucida Sans Unicode';
+      letter-spacing: 0.2em;
+      text-align: justify;
+}
+
 .navbar {
     overflow: hidden;
     background-color: #333;
@@ -26,6 +32,9 @@
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    font-family: 'Lucida Sans Unicode';
+      letter-spacing: 0.2em;
+      text-align: justify;
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
