@@ -25,6 +25,10 @@ header{
     margin: auto;
     padding: 2px; 
    }
+ section a {
+    color: inherit;
+    text-decoration: underline;
+ }
 /* footer */
 footer{
     background-color: #333;
@@ -58,4 +62,25 @@ footer a {
   .divG {
     width: 50%;
     margin: 50%;
+  }
+  /* Nedia query: tablets and Larger views(768px and up */
+  @media screen and (min-width:780px){
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content:center  
+    }
+    li{
+        flex: auto;
+        height: auto;
+        width: 30%;
+        margin: 10px;
+    }
+    p{
+        width: 95%;
+        margin: auto;
+        padding: 5px; 
+       }
+    
   }
