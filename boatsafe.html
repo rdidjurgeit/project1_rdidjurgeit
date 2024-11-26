@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta tags for search eng. -->
+    <meta name="description" content="Boat Safety Tips and Guidelines">
+    <meta name="keywords" content="boat safety, safety tips, water safety, boating">
+    <title>Boat Safety Guide</title>
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="./assets/images/icons8_32.png">
+    <link rel="icon" sizes="16x16" href="./assets/images/icons8_16.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/dropdown.css">
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="./assets/images/logo.png" alt="this is the logo from the school" width="200" height="200">
+            <figcaption>Sailing School</figcaption>
+        </figure>
+        <Nav>
+            <div class="navbar">
+                <a href="./index.html">Home</a>
+                <a href="./contact.html">Contact</a>
+                <!-- Beginners -->
+                <div class="dropdown">
+                  <button class="dropbtn">Beginners 
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="./index.html#beginnersailingtips">Beginner Sailing Tips</a>
+                    <a href="./index.html#sailingbasics">10Nautical Sailing Terms</a>
+                    <a href="./index.html#sailingrules">Sailing Rules</a>
+                  </div>
+                  <!-- Intermediary -->
+                </div>
+                <div class="dropdown">
+                  <button class="dropbtn">Intermediary 
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="./pointofsail.html">Points of Sail</a>
+                    <a href="./boatsafe.html">Boat Safety</a>
+                    <a href="./weather.html">Weather Forecast</a>
+                  </div>
+                </div> 
+              </div>
+        </Nav>
+        <button onclick="topFunction()" id="myBtn" title="Top">Top<i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+    </header>
+    <main id="top">
+        <h1>Boat Safety Guide</h1>
+        <p>Safety on the water is essential for everyone. Whether you're a seasoned sailor or a beginner, these boat safety guidelines will help you stay safe while enjoying your time on the water.</p>
+
+        <section id="boatsafety">
+            <h2>Top Boat Safety Tips</h2>
+            <ul>
+                <li><b>Wear a life jacket:</b> Always wear a properly fitted life jacket. It is the most important piece of safety equipment on the boat.</li>
+                <li><b>Check the weather:</b> Before heading out on the water, always check the weather forecast. Avoid boating in poor weather conditions such as thunderstorms, high winds, or heavy fog.</li>
+                <li><b>Know your boat:</b> Make sure you understand how to operate your boat and its features. Know how to handle emergencies, including capsizing or engine failure.</li>
+                <li><b>Carry safety equipment:</b> Always bring essential safety equipment including life jackets, a first aid kit, a whistle, fire extinguisher, and a throw bag.</li>
+                <li><b>Check fuel and engine:</b> Ensure your boat has enough fuel for the trip, and check the engine for any signs of malfunction before setting sail.</li>
+                <li><b>Stay alert:</b> Always maintain a proper lookout for obstacles, other boats, swimmers, and wildlife. Avoid distractions while driving the boat.</li>
+                <li><b>Know the boating rules:</b> Familiarize yourself with the local boating regulations and rules of the water to prevent accidents.</li>
+                <li><b>Use a lanyard for engine kill switch:</b> Always attach the engine kill switch lanyard to your wrist or clothing to shut off the engine in case of an emergency.</li>
+                <li><b>Avoid alcohol:</b> Never consume alcohol while operating a boat. Alcohol impairs your judgment and reaction time, increasing the risk of accidents.</li>
+                <li><b>Have a communication device:</b> Bring a charged mobile phone or marine radio on the boat to contact help in case of an emergency.</li>
+            </ul>
+        </section>
+
+        <section id="boataccidentprevention">
+            <h2>Preventing Boat Accidents</h2>
+            <p>Boat accidents can happen in an instant. Following these steps can help you reduce the risk of accidents:</p>
+            <ul>
+                <li><b>Operate your boat at safe speeds:</b> Maintain a safe speed to avoid collisions, and adjust your speed based on the weather, traffic, and water conditions.</li>
+                <li><b>Maintain distance from other boats:</b> Keep a safe distance from other vessels, and be mindful of their movement.</li>
+                <li><b>Be aware of your surroundings:</b> Stay alert to other boats, buoys, docks, and obstacles in the water.</li>
+                <li><b>Check your gear:</b> Inspect your boat regularly for any damages, and ensure all safety equipment is in working condition.</li>
+            </ul>
+        </section>
+
+        <section id="boataccidentresponse">
+            <h2>What to Do in Case of an Accident</h2>
+            <p>Accidents on the water can be stressful, but it’s important to stay calm and follow these steps:</p>
+            <ul>
+                <li><b>Ensure safety:</b> First, make sure everyone is safe. Put on life jackets and check for injuries.</li>
+                <li><b>Call for help:</b> Use a mobile phone or marine radio to call emergency services if needed.</li>
+                <li><b>Assess damage:</b> Check your boat for damage, and try to prevent further accidents by keeping everyone clear of hazards.</li>
+                <li><b>Stay with the boat:</b> If you are stranded, stay with your boat unless it is unsafe to do so. Your boat is your best chance of being located.</li>
+                <li><b>Provide details:</b> When help arrives, provide as much information as possible about the accident, including your location, the number of people onboard, and the type of damage.</li>
+            </ul>
+        </section>
+
+        <h2>Conclusion: Stay Safe While Boating</h2>
+        <p>Boating is a fun and exciting activity, but safety should always come first. By following these boat safety tips and being prepared for any situation, you can ensure a safe and enjoyable experience on the water.</p>
+    </main>
+
+    <footer>
+        <p>M.by Raphael wit contents from different sorcery more info in <a href="./README.md" target="_blank">Read Me</a></p>
+        <p><a href="contact.html">Contact.</a></p>
+    </footer>
+
+    <script>
+        // Get the button:
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+</body>
+</html>
