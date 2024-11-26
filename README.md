@@ -10,6 +10,7 @@
 **Table of Contents**
 
 - [UX](#ux)
+  - [WireFrame](#wireframe)
   - [Visitor Goals](#visitor-goals)
   - [User goals](#user-goals)
   - [Features](#features)
@@ -55,6 +56,10 @@
 
 - This project is designed for sailing enthusiasts who want to learn and explore key concepts such as navigation, weather forecasting, and safety rules. Beginners and intermediates will find the content accessible and engaging.
 
+## WireFrame
+
+![wireframe](assets/images/wireframe.webp)
+
 ## Visitor Goals
 
 - People who want to learn how to Sail.
@@ -68,6 +73,7 @@
 - Checking a Repository with Nautical Terms.
 - Contact to know more about.
 - Get an overview of Basic Sailing.
+- Check for weather
 
 ## Features
 
@@ -79,7 +85,7 @@
 
 ## Visual Design
 
-- I decide to go with a simple design sing the content is the important part
+- I decide to go with a simple design since the content is the important part
   
 ### Fonts
 
@@ -110,9 +116,7 @@
 
 ## Navbar
 
-<div align="center">
-  <img src="./assets/images/navbar_image.webp" alt="Medium Header">
-</div>
+![NavBar](assets/images/navbar_image.webp)
 
 - The Navbar is simple, providing a Home, Contact, and 2 Botton divided by level of Knowledge.
 - The Logo was made by [Dreamstudio](https://dreamstudio.ai/) .
@@ -194,9 +198,9 @@
 - Since the project is a static HTML and CSS the best way to test is to go to W3C and manually input your source code for each page and check if present any error.
 - For each page, you should should look like this
 
-<img src="./assets/images/css validator.JPG" alt="Medium Header">
+![CSS Validator](assets/images/cssvalidator.webp)
 
-<img src="./assets/images/test.JPG" alt="Medium Header">
+![All Works](assets/images/test.webp)
 
 - For more information look at the Methods to have all the links for it
 
