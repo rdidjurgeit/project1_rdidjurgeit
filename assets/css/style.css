@@ -111,3 +111,12 @@ footer a {
        }
        
   }
+
+  iframe {
+    border: none; /* Removes the border (replaces frameborder="0") */
+    width: 100%; /* Optional: Makes iframe responsive */
+    max-width: 560px; /* Optional: Limits maximum width */
+    height: 315px; /* Default YouTube video height */
+    display: block; /* Ensures proper spacing in layouts */
+    margin: 0 auto; /* Centers iframe horizontally if inside a container */
+}
